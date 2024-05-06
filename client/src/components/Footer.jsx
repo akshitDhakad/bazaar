@@ -48,46 +48,49 @@ function Footer() {
             </div>
           </div>
         </aside>
+        {/* SERVICES */}
         <nav>
-          <h6 className="footer-title text-white">Services</h6>
+          <h6 className="footer-title text-white">SERVICES</h6>
           <Link to={"/brading"} className="link link-hover">
-            Branding
+            Careers
           </Link>
           <Link to={"/design"} className="link link-hover">
-            Design
+            Our Stores
           </Link>
           <Link to={"/marketing"} className="link link-hover">
-            Marketing
+            Terms & Conditions
           </Link>
           <Link to={"/advertisements"} className="link link-hover">
-            Advertisement
+            Privacy Policy
           </Link>
         </nav>
+        {/* Customer Care */}
         <nav>
-          <h6 className="footer-title text-white">Company</h6>
+          <h6 className="footer-title text-white">Customer Care</h6>
           <Link to={"/about-us"} className="link link-hover">
-            About us
+            Help Center
           </Link>
           <Link to={"/contact-us"} className="link link-hover">
-            Contact us
+            Track Your Order
           </Link>
           <Link to={"/jobs"} className="link link-hover">
-            Jobs
+            Corporate & Bulk Purchasing
           </Link>
           <Link to={""} className="link link-hover">
-            Press kit
+            Returns & Refunds
           </Link>
         </nav>
+        {/* contact us  */}
         <nav>
-          <h6 className="footer-title text-white">Legal</h6>
+          <h6 className="footer-title text-white">Contact Us</h6>
           <Link to={"/terms-conditions"} className="link link-hover">
-            Terms of use
+            70 Washington Square South, New York, NY 10012, United States
           </Link>
           <Link to={"/privacy-policy"} className="link link-hover">
-            Privacy policy
+            Email: bazaar.help@gmail.com
           </Link>
           <Link to={"/cookies-policy"} className="link link-hover">
-            Cookie policy
+            Phone: +91 8871713348
           </Link>
         </nav>
       </div>
@@ -96,7 +99,7 @@ function Footer() {
         <div className="bg-theme-blue p-5 text-gray-200">
           <p className="text-center">
             &copy; 2021 Bazaar. All rights reserved. Designed by
-            <span className="text-theme-red"> UI Lib</span>
+            <span className="text-theme-red mx-2">Webart Tech.</span>
           </p>
         </div>
       </div>
