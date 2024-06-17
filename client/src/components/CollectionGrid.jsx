@@ -17,7 +17,7 @@ const CollectionGrid = () => {
       rating: "4.5",
       imgURl: [
         "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a8f819fc-8762-4cfc-80ea-994c82c760fc/nikecourt-zoom-vapor-cage-4-rafa-hard-court-tennis-shoes-cS7wct.png",
-        "https://tennishub.in/media/catalog/product//image/1136789cab/nike-court-zoom-vapor-cage-4-rafa-men-s-shoe-baltic-blue-green.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5wIWpZbZyjshir37wijvobXdVfn6fOMbNfQ&s",
         "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/7fb3501a-ed53-422a-a454-1bf116a13324/impact-4-basketball-shoes-CcJxBx.png",
       ],
     },
@@ -41,7 +41,7 @@ const CollectionGrid = () => {
       rating: "4.5",
       imgURl: [
         "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-12-pro-max-silver-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1635202946000",
-        "https://mobilesmall.in/cdn/shop/files/Untitleddesign_1_52d5ca84-26fa-4112-b711-726614151e62.jpg?v=1694947847",
+        "https://www.khoslaonline.com/wp-content/uploads/2023/06/ONE-PLUS-NORD-CE-2-LITE-5G-BLUE-TIDE-6GB128GB-300x300.png",
         "https://d2xamzlzrdbdbn.cloudfront.net/products/82743929-739e-4ec3-806b-2d57fbc76344_416x416.jpg",
       ],
     },
@@ -76,8 +76,8 @@ const CollectionGrid = () => {
       off: "15",
       rating: "4.5",
       imgURl: [
-        "https://m.media-amazon.com/images/I/51wwVl2r-WL._AC_AC_SY350_QL15_.jpg",
-        "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/zmtKToLoS-0RBR0101S.jpeg",
+        "https://www.urbanmonkey.com/cdn/shop/files/airplane-mode-006-sunglass-03.jpg?v=1705060475",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGv_TPjNqnfIc-nLHZ5DPtJzQbwnOjfvl0g&s",
         "https://rukminim2.flixcart.com/image/850/1000/l1zc6fk0/sunglass/d/e/z/medium-range-sunglasses-gainx-original-imagdezytckqth5z.jpeg?q=20&crop=false",
       ],
     },
@@ -88,7 +88,7 @@ const CollectionGrid = () => {
       off: "28",
       rating: "4.5",
       imgURl: [
-        "https://cdn.ttgtmedia.com/rms/onlineimages/hp_elitebook_mobile.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzCGoaCuLeawzVfD7cF0WSRfPIwXdJrM30FA&s",
         "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PDP-Highlight-Consumer-Laptop-5-Platinum-001-1:VP1-539x440",
         "https://cdn.ttgtmedia.com/rms/onlineimages/hp_elitebook_mobile.jpg",
       ],
@@ -143,7 +143,7 @@ const CollectionGrid = () => {
                 {item.title}
               </button>
             </div>
-            <div className="h-36 w-36">
+            <div className="h-36 w-full">
               <img
                 loading="lazy"
                 className="h-full w-full object-cover object-center"
@@ -151,7 +151,7 @@ const CollectionGrid = () => {
                 alt={`Havenhub-${item.name}-${item?.imgURl[0]}`}
               />
             </div>
-            <div className="h-36 w-36">
+            <div className="h-36 w-full">
               <img
                 loading="lazy"
                 className="h-full w-full  object-cover object-center"
@@ -159,7 +159,7 @@ const CollectionGrid = () => {
                 alt={`Havenhub-${item.name}-${item?.imgURl[1]}`}
               />
             </div>
-            <div className="h-36 w-36">
+            <div className="h-36 w-full">
               <img
                 loading="lazy"
                 className="h-full w-full  object-cover object-center"
